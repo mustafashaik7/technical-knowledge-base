@@ -25,7 +25,8 @@ technical-knowledge-base/
 ├── ai-agents/
 │   └── deterministic-automation-vs-agentic-ai-workflows.md
 ├── ai-certifications/
-│   └── nvidia-ncp-aai-study-plan.md
+│   ├── nvidia-ncp-aai-study-plan.md
+│   └── test_knowledge_article.md
 ├── automation/
 │   └── deterministic-automation-vs-agentic-ai-workflow/
 │       └── README.md
@@ -46,12 +47,13 @@ technical-knowledge-base/
 
 ### Ai Certifications
 - [NVIDIA Certified Professional - Agentic AI (NCP-AAI) Study Plan](ai-certifications/nvidia-ncp-aai-study-plan.md)
+- [Test Knowledge Article](ai-certifications/test_knowledge_article.md)
 
 ### Git Github
 - [Maintain Two GitHub Accounts Simultaneously Using SSH](git-github/multiple-github-accounts-ssh.md)
 
 ### Templates
-- [Knowledge Article Title](templates/knowledge-article-template.md)
+- [<Knowledge Article Title>](templates/knowledge-article-template.md)
 - [Troubleshooting: <Issue Title>](templates/troubleshooting-template.md)
 <!-- ARTICLES_END -->
 
