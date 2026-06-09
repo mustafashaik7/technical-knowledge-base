@@ -1,0 +1,46 @@
+name: Update README Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "automation/deterministic-automation-vs-agentic-ai-workflow/scripts/update_readme_index.py"
+      - ".github/workflows/update-readme-index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update README index
+        run: |
+          python automation/deterministic-automation-vs-agentic-ai-workflow/scripts/update_readme_index.py --repo-root . --readme README.md
+
+      - name: Commit README changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet README.md; then
+            echo "README.md is already up to date."
+          else
+            git add README.md
+            git commit -m "chore: update README index"
+            git push
+          fi
