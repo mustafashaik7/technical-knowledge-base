@@ -41,32 +41,19 @@ technical-knowledge-base/
 ## Articles
 
 <!-- ARTICLES_START -->
-### Ai Agents
+### AI Agents
 - [Deterministic Automation vs Agentic AI Workflows](ai-agents/deterministic-automation-vs-agentic-ai-workflows.md)
 
-### Ai Certifications
+### AI Certifications
 - [NVIDIA Certified Professional - Agentic AI (NCP-AAI) Study Plan](ai-certifications/nvidia-ncp-aai-study-plan.md)
 
 ### Git Github
 - [Maintain Two GitHub Accounts Simultaneously Using SSH](git-github/multiple-github-accounts-ssh.md)
 
 ### Templates
-- [<Knowledge Article Title>](templates/knowledge-article-template.md)
+- [Knowledge Article Title](templates/knowledge-article-template.md)
 - [Troubleshooting: <Issue Title>](templates/troubleshooting-template.md)
 <!-- ARTICLES_END -->
-
-### Git and GitHub
-
-- [Managing Multiple GitHub Accounts with SSH](git-github/multiple-github-accounts-ssh.md)
-
-### AI Certifications
-
-- [NVIDIA NCP-AAI Certification Study Plan](ai-certifications/nvidia-ncp-aai-study-plan.md)
-
-### Templates
-
-- [Knowledge Article Template](templates/knowledge-article-template.md)
-- [Troubleshooting Template](templates/troubleshooting-template.md)
 
 ## Recommended Writing Standard
 
