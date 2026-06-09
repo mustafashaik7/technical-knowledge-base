@@ -17,25 +17,45 @@ It is designed for topics such as:
 - Troubleshooting guides
 - Repeatable command-line procedures
 
+```markdown
 ## Current Structure
 
+<!-- STRUCTURE_START -->
 ```text
 technical-knowledge-base/
-|
-├── README.md
-|
-├── git-github/
-|   └── multiple-github-accounts-ssh.md
-|
+├── ai-agents/
+│   └── deterministic-automation-vs-agentic-ai-workflows.md
 ├── ai-certifications/
-|   └── nvidia-ncp-aai-study-plan.md
-|
-└── templates/
-    ├── knowledge-article-template.md
-    └── troubleshooting-template.md
+│   └── nvidia-ncp-aai-study-plan.md
+├── automation/
+│   └── deterministic-automation-vs-agentic-ai-workflow/
+│       └── README.md
+├── git-github/
+│   └── multiple-github-accounts-ssh.md
+├── templates/
+│   ├── knowledge-article-template.md
+│   └── troubleshooting-template.md
+└── README.md
 ```
+<!-- STRUCTURE_END -->
 
 ## Articles
+
+<!-- ARTICLES_START -->
+### Ai Agents
+- [Deterministic Automation vs Agentic AI Workflows](ai-agents/deterministic-automation-vs-agentic-ai-workflows.md)
+
+### Ai Certifications
+- [NVIDIA Certified Professional - Agentic AI (NCP-AAI) Study Plan](ai-certifications/nvidia-ncp-aai-study-plan.md)
+
+### Git Github
+- [Maintain Two GitHub Accounts Simultaneously Using SSH](git-github/multiple-github-accounts-ssh.md)
+
+### Templates
+- [<Knowledge Article Title>](templates/knowledge-article-template.md)
+- [Troubleshooting: <Issue Title>](templates/troubleshooting-template.md)
+<!-- ARTICLES_END -->
+```
 
 ### Git and GitHub
 
