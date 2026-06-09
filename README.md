@@ -17,7 +17,6 @@ It is designed for topics such as:
 - Troubleshooting guides
 - Repeatable command-line procedures
 
-```markdown
 ## Current Structure
 
 <!-- STRUCTURE_START -->
@@ -52,10 +51,9 @@ technical-knowledge-base/
 - [Maintain Two GitHub Accounts Simultaneously Using SSH](git-github/multiple-github-accounts-ssh.md)
 
 ### Templates
-- [<Knowledge Article Title>](templates/knowledge-article-template.md)
+- [Knowledge Article Title](templates/knowledge-article-template.md)
 - [Troubleshooting: <Issue Title>](templates/troubleshooting-template.md)
 <!-- ARTICLES_END -->
-```
 
 ### Git and GitHub
 
