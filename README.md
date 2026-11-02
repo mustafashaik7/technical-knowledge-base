@@ -26,6 +26,10 @@ technical-knowledge-base/
 │   └── deterministic-automation-vs-agentic-ai-workflows.md
 ├── ai-certifications/
 │   └── nvidia-ncp-aai-study-plan.md
+├── ai-projects/
+│   └── local-llm-prompt-injection-eval/
+│       ├── README.md
+│       └── REPORT.md
 ├── automation/
 │   └── deterministic-automation-vs-agentic-ai-workflow/
 │       └── README.md
@@ -46,6 +50,9 @@ technical-knowledge-base/
 
 ### Ai Certifications
 - [NVIDIA Certified Professional - Agentic AI (NCP-AAI) Study Plan](ai-certifications/nvidia-ncp-aai-study-plan.md)
+
+### Ai Projects
+- [Project Report](ai-projects/local-llm-prompt-injection-eval/REPORT.md)
 
 ### Git Github
 - [Maintain Two GitHub Accounts Simultaneously Using SSH](git-github/multiple-github-accounts-ssh.md)
