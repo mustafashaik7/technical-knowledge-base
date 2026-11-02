@@ -46,7 +46,7 @@ Both scripts use only the Python standard library. Ollama must be available at `
 
 The original Georgia Tech M.S. Cybersecurity practicum examined prompt-injection defenses for locally deployed LLM applications using LangChain and Ollama. Its executable repository and numerical result tables were not preserved in the materials available for this publication.
 
-The quantitative results in this repository come from a supplementary evaluation run in October 2026 using a recovered adversarial prompt artifact and an available local model. They should not be attributed to the archived course results.
+The quantitative results in this repository come from a supplementary evaluation using a recovered adversarial prompt artifact and an available local model. They should not be attributed to the archived course results.
 
 The supplementary corpus measures direct user-prompt attacks. Indirect injection through retrieved content, multi-turn attacks, tool-mediated effects, and memory poisoning remain future work.
 

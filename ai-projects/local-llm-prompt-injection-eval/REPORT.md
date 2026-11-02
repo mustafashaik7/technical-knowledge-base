@@ -10,7 +10,7 @@ Securing LLMs at the Edge
 
 This project examined whether one locally deployed language model could help protect another from prompt-injection attacks. The original practicum used LangChain to orchestrate the application and Ollama to serve models locally.
 
-The original executable repository and numerical result tables were not preserved in the materials available for this report. I therefore ran a supplementary evaluation in October 2026 using a recovered set of adversarial prompts. The quantitative results below describe that supplementary run, not the original course results.
+The original executable repository and numerical result tables were not preserved in the materials available for this report. I therefore ran a supplementary evaluation using a recovered set of adversarial prompts. The quantitative results below describe that supplementary run, not the original course results.
 
 The evaluation compared two versions of a semantic input guard using Llama 3.2 3B. A naive guard received a short security policy. A hardened guard received explicit attack categories, authority rules, mixed-intent handling, examples, and a constrained output format.
 

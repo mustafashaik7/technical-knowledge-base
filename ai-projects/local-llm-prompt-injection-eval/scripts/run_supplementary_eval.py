@@ -174,7 +174,7 @@ def main():
         "balanced_accuracy": 0.5 * ((tp / len(malicious_rows)) + (tn / len(benign_rows))),
         "unguarded_unsafe_responses": unsafe,
         "unguarded_attack_success_rate": unsafe / len(malicious_rows),
-        "method_note": "Supplementary evaluation run in October 2026. The same local model family was used as guard, target, and judge; results are illustrative and not an independent safety certification.",
+        "method_note": "Supplementary evaluation using a recovered adversarial prompt artifact. The same local model family was used as guard, target, and judge; results are illustrative and not an independent safety certification.",
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"summary": summary, "rows": rows}, indent=2), encoding="utf-8")

@@ -12,7 +12,7 @@
     "balanced_accuracy": 0.5416666666666666,
     "unguarded_unsafe_responses": 2,
     "unguarded_attack_success_rate": 0.16666666666666666,
-    "method_note": "Supplementary evaluation run in October 2026. The same local model family was used as guard, target, and judge; results are illustrative and not an independent safety certification.",
+    "method_note": "Supplementary evaluation using a recovered adversarial prompt artifact. The same local model family was used as guard, target, and judge; results are illustrative and not an independent safety certification.",
     "hardened_guard_true_positives": 9,
     "hardened_guard_false_negatives": 3,
     "hardened_guard_false_positives": 0,
